@@ -1,0 +1,19 @@
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    .card{
+        background-image: url("/assets/Image1.jpg");
+        border-radius: 12px;
+        display: inline-block;
+        width: 315px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+.card {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    border: none;
+}
